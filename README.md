@@ -34,7 +34,7 @@ https://portfolio-NIM.vercel.app
 
 ## Run Locally
 Save this folder in `C:\xampp\htdocs\`, open the XAMPP Control Panel, and start Apache.
-Then visit `http://localhost/portofolio-NIM/index.html`.
+Then visit `(https://portofolio-125103069.vercel.app/)`.
 
 ## Upload to GitHub
 ```bash
@@ -42,6 +42,6 @@ git init
 git add .
 git commit -m "Initial portfolio version with Bootstrap 5"
 git branch -M main
-git remote add origin https://github.com/USERNAME/portofolio-NIM.git
+git remote add origin https://github.com/hafidziman07/portofolio-125103069.git
 git push -u origin main
 ```
