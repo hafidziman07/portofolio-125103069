@@ -1,0 +1,76 @@
+/* Custom blue-and-white theme built on Bootstrap */
+
+:root {
+  --primary-blue: #1c5d99;
+  --dark-blue: #14456e;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #ffffff;
+  color: #2b3a48;
+}
+
+/* Blue navigation bar */
+.nav-biru {
+  background-color: var(--primary-blue) !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .aktif {
+  background-color: var(--dark-blue);
+  border-radius: 4px;
+}
+
+/* Blue home hero */
+.hero-biru {
+  background-color: var(--primary-blue);
+  color: #ffffff;
+}
+
+.hero-biru h1 {
+  color: #ffffff;
+}
+
+/* Circular profile photo */
+.foto-profil {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+
+/* Dark blue footer */
+.footer-biru {
+  background-color: var(--dark-blue);
+  color: #ffffff;
+}
+
+/* Project cards lift slightly on hover */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(28, 93, 153, 0.18) !important;
+}
+
+/* Tables */
+.table thead th {
+  background-color: #cfe2ff;
+  color: var(--dark-blue);
+}
+
+caption {
+  caption-side: top;
+}
+
+/* Reduce the profile photo size on small screens */
+@media (max-width: 575.98px) {
+  .foto-profil {
+    width: 150px;
+    height: 150px;
+  }
+}
