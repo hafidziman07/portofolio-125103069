@@ -30,11 +30,11 @@ portofolio-NIM/
 3. `kontak.html` — Contact (contact information + message form)
 
 ## Website on Vercel
-https://portfolio-NIM.vercel.app 
+https://portofolio-125103069.vercel.app/
 
 ## Run Locally
 Save this folder in `C:\xampp\htdocs\`, open the XAMPP Control Panel, and start Apache.
-Then visit `(https://portofolio-125103069.vercel.app/)`.
+Then visit `http://localhost/Portfolio%20Pemrograman%20Web/` (or use the folder name you chose).
 
 ## Upload to GitHub
 ```bash
