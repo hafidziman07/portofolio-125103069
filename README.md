@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-**Name:** Hafidz Iman Alkaits  
+**Name:** Hafidz Iman Al-Kaits
 **Student ID:** 125103069
 **Course:** Web Programming
 
